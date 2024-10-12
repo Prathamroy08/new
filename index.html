@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management Company</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                    <ul class="dropdown">
+                        <li><a href="#corporate-events">Corporate Events</a></li>
+                        <li><a href="#weddings">Weddings</a></li>
+                        <li><a href="#private-parties">Private Parties</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="C:\xampp\htdocs\loginpage\login.php">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to Our Event Management Company</h1>
+            <p>We bring your events to life with precision and creativity.</p>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>We specialize in planning and managing corporate events, weddings, and private parties with exceptional attention to detail.</p>
+    </section>
+
+    <section id="clients" class="section">
+        <h2>Our Clients</h2>
+        <div class="clients-logos">
+            <img src="images.jpeg" alt="Client 1">
+            <img src="images.jpeg" alt="Client 2">
+            <img src="images.jpeg" alt="Client 3">
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <h2>Our Portfolio</h2>
+        <div class="portfolio-gallery">
+            <img src="images.jpeg" alt="Event 1">
+            <img src="images.jpeg" alt="Event 2">
+            <img src="images.jpeg" alt="Event 3">
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Reach out to us for any event inquiries!</p>
+        <address>
+            <p>Email: contact@eventmanagement.com</p>
+            <p>Phone: +123 456 7890</p>
+        </address>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Event Management Company. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
